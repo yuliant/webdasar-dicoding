@@ -1,0 +1,121 @@
+@media(min-width:900px) {
+
+    /* Banner */
+    main.banner {
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    section.content-banner {
+        flex: 1;
+        text-align: left;
+        margin: auto;
+    }
+
+    .content-banner h1 {
+        font-size: 40px;
+    }
+
+    figure.img-banner {
+        flex: 1;
+        margin: auto;
+    }
+
+    figure.img-banner img {
+        width: 70%;
+    }
+
+    .yellow {
+        margin: 5px;
+    }
+
+    .red {
+        margin: 5px;
+    }
+
+    .button-banner {
+        justify-content: left;
+    }
+
+    /* End Banner */
+
+
+
+    /* Section - Question */
+    section.question {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    /* endsection - Question */
+
+
+
+    /* Main - Best */
+    main.best {
+        padding-right: 250px;
+        padding-left: 250px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    figure.img-main img {
+        width: 75%;
+    }
+
+    main.best.right {
+        text-align: right;
+    }
+
+    main.best.left {
+        text-align: left;
+    }
+
+    .img-award {
+        order: 2;
+    }
+
+    .content-award {
+        order: 1;
+    }
+
+    .img-payment {
+        order: 1;
+    }
+
+    .content-payment {
+        order: 2;
+    }
+
+    /* End Main - Best */
+
+
+
+    /* Main - Package */
+    main.main-package {
+        padding-right: 200px;
+        padding-left: 200px;
+        display: flex;
+    }
+
+    .card {
+        flex: 1;
+    }
+
+    .card.big {
+        transform: scale(1.10);
+    }
+
+    section.content p {
+        line-height: 1;
+        font-size: 14px;
+        color: rgb(70, 70, 70);
+    }
+
+    /* aside */
+    figure.social-media a img {
+        width: 5%;
+        margin-right: 5px;
+    }
+}
