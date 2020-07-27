@@ -10,6 +10,12 @@ body {
     line-height: 1.65;
 }
 
+header.nav {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #333;
+}
+
 /* Banner */
 main.banner {
     padding: 50px;
@@ -89,7 +95,7 @@ section.question p {
 }
 
 /* Main - best product */
-main.best {
+article.best {
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 1300px;
@@ -161,7 +167,16 @@ section.content p {
 
 
 
-/* Aside */
+/* aside - profil */
+main.best {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1300px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 aside {
     background-color: #8888ff;
     padding-bottom: 20px;
@@ -205,11 +220,15 @@ a {
     text-decoration: none;
 }
 
+/* end aside - profil */
 
 
-/* aside */
+
+/* footer */
 footer p {
     font-size: small;
     text-align: center;
     font-style: italic;
 }
+
+/* end footer */

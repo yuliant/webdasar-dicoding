@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>Landing Page - PPDB Online</title>
 </head>
 
 <body>
-    <main class="banner">
+    <header class="nav">
+        <section class="topnav" id="myTopnav">
+            <a href="#" class="active"><b>PPDB ONLINE</b></a>
+            <a href="#home">Home</a>
+            <a href="#article">Article</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img class="img-toggle" src="images/hamburger-menu.webp" alt="">
+            </a>
+        </section>
+    </header>
+
+    <main class="banner" id="home">
         <figure class="img-banner">
             <img src="images/user.png" alt="Image banner">
         </figure>
@@ -21,21 +35,21 @@
                 penerimaan peserta didik baru tingkat SD Sederajat, SMP Sederajat dan SMA Sederajat.
             </p>
             <section class="button-banner">
-                <a href="coba.html">
+                <a href="contact.html">
                     <button class="yellow">Contact Us</button>
                 </a>
-                <a href="coba.html">
+                <a href="#pricing">
                     <button class="red">All Pricing</button>
                 </a>
             </section>
         </section>
     </main>
 
-    <section class="question">
+    <section class="question" id="article">
         <h1>APA SAJA YANG AKAN ANDA DAPATKAN KETIKA BERLANGGANAN PADA PLATFORM KAMI ?</h1>
     </section>
 
-    <main class="best right">
+    <article class="best right">
         <figure class="img-main img-award">
             <img src="images/reward.png" alt="">
         </figure>
@@ -45,9 +59,9 @@
                 penerimaan peserta didik baru di sekolah mereka.
             </p>
         </section>
-    </main>
+    </article>
 
-    <main class="best left">
+    <article class="best left">
         <figure class="img-main img-payment">
             <img src="images/pay-card.png" alt="">
         </figure>
@@ -58,9 +72,9 @@
                 kenyamanan siswa ketika melakukan pembayaran PPDB.
             </p>
         </section>
-    </main>
+    </article>
 
-    <main class="best right">
+    <article class="best right">
         <figure class="img-main img-award">
             <img src="images/customer-service.png" alt="">
         </figure>
@@ -70,9 +84,9 @@
                 keluhan, maintenance, dan layanan lainnya dari client kami.
             </p>
         </section>
-    </main>
+    </article>
 
-    <section class="question">
+    <section class="question" id="pricing">
         <h1>PILIHAN PACKAGE YANG DAPAT ANDA GUNAKAN</h1>
         <p>*Anda juga dapat bernegoisasi harga, silahkan hubungi kami.</p>
     </section>
@@ -125,7 +139,7 @@
     </main>
 
     <aside>
-        <section class="question">
+        <section class="question" id="about">
             <h1>KENALI KAMI LEBIH JAUH</h1>
         </section>
         <main class="best left">
@@ -153,9 +167,10 @@
     </aside>
 
     <footer>
-        <p>Copyright &copy; PPDB Online 2020</p>
+        <p>Copyright &copy; PPDB Online 2020 || Submission Belajar Dasar Pemrograman Web Dicoding</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>

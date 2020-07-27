@@ -53,7 +53,7 @@
 
 
     /* Main - Best */
-    main.best {
+    article.best {
         padding-right: 250px;
         padding-left: 250px;
         display: flex;
@@ -64,11 +64,11 @@
         width: 75%;
     }
 
-    main.best.right {
+    article.best.right {
         text-align: right;
     }
 
-    main.best.left {
+    article.best.left {
         text-align: left;
     }
 
@@ -113,9 +113,27 @@
         color: rgb(70, 70, 70);
     }
 
-    /* aside */
+    /* End Main - Package */
+
+
+
+
+    /* aside - profil */
     figure.social-media a img {
         width: 5%;
         margin-right: 5px;
     }
+
+    main.best {
+        padding-right: 250px;
+        padding-left: 250px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    main.best.left {
+        text-align: left;
+    }
+
+    /* end aside - profil */
 }
